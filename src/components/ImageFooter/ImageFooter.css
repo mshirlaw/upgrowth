@@ -1,0 +1,24 @@
+.caption {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.username {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-width: 300px;
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+.likes {
+  display: flex;
+  flex-direction: row;
+}
+
+.count {
+  margin-left: 5px;
+  vertical-align: middle;
+}
